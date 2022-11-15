@@ -17,5 +17,6 @@ public void TC2() {
 public void TC3() {
 	Reporter.log("running tc2",true);
 	Assert.fail();
+	System.out.println("hi");
 }
 }
